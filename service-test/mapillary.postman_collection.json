@@ -1,0 +1,618 @@
+{
+	"info": {
+		"_postman_id": "bdda70a4-9c68-49f8-9966-9f4ce6fd5e0f",
+		"name": "mapillary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "626dc7ab-61a6-4854-b57b-2e2fc6a89132",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Number of users should be equal to 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(2);",
+							"});",
+							"",
+							"pm.test(\"First user's information should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0][\"fields\"][\"username\"]).to.eql(\"testusername1\");",
+							"    pm.expect(jsonData[0][\"fields\"][\"email\"]).to.eql(\"test1@test.com\");",
+							"    pm.expect(jsonData[0][\"fields\"][\"birthday\"]).to.eql(\"2001-09-03\");",
+							"    pm.expect(jsonData[0][\"fields\"][\"address\"]).to.eql(\"Turkey İstanbul Bakırköy 344252\");",
+							"});",
+							"",
+							"pm.test(\"Second user's information should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[1][\"fields\"][\"username\"]).to.eql(\"testusername2\");",
+							"    pm.expect(jsonData[1][\"fields\"][\"email\"]).to.eql(\"test2@test.com\");",
+							"    pm.expect(jsonData[1][\"fields\"][\"birthday\"]).to.eql(\"2000-09-03\");",
+							"    pm.expect(jsonData[1][\"fields\"][\"address\"]).to.eql(\"Studio 103 Wellfield Road Roath Cardiff\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8001/api/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "55f0fcc0-1feb-4f7e-b327-8efba482927d",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(true);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.eql(\"User is recorded with given informations.\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "test17",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test2@test.com",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "2013-09-24",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Bredgatan 4 211 30 Malmö Sweden",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-fail-already-member",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c6a965e4-20c6-41dc-b505-e05637352e05",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 202\", function () {",
+							"    pm.response.to.have.status(202);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(false);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.eql(\"Member already recorded!\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "testusername1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test2@test.com",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "2013-09-24",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Bredgatan 4 211 30 Malmö Sweden",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-fail-empty-username",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "635f2200-fc34-4b91-a134-d3f303395e9a",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 202\", function () {",
+							"    pm.response.to.have.status(202);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(false);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test2@test.com",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "2013-09-24",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Bredgatan 4 211 30 Malmö Sweden",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-fail-empty-email",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "30b65e63-5a2c-4957-9ff0-3484d6275904",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 202\", function () {",
+							"    pm.response.to.have.status(202);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(false);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "testusername1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "2013-09-24",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Bredgatan 4 211 30 Malmö Sweden",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-fail-empty-birthday",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6dbddb50-49a0-430e-b077-df1e4d10e798",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 202\", function () {",
+							"    pm.response.to.have.status(202);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(false);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "testusername1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test2@test.com",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Bredgatan 4 211 30 Malmö Sweden",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-fail-empty-address",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "57579260-63e4-42ca-b37a-51f64e441753",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 202\", function () {",
+							"    pm.response.to.have.status(202);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(false);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "testusername1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test2@test.com",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "2013-09-24",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-user-fail-worng-format-birthday",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "eaf4393a-5ec6-498d-831d-39306a54e03f",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code should be 202\", function () {",
+							"    pm.response.to.have.status(202);",
+							"});",
+							"",
+							"pm.test(\"Result should be true\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['result']).to.eql(false);",
+							"});",
+							"",
+							"pm.test(\"Message should be correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData['message']).to.include(\"value has an invalid date format. It must be in YYYY-MM-DD form\");",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "testusername5",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test2@test.com",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "2013.09.24",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Bredgatan 4 211 30 Malmö Sweden",
+							"type": "text"
+						},
+						{
+							"key": "client",
+							"value": "app",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8001/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

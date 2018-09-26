@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-subdomains
+Version: 2.1.0
+Summary: Subdomain tools for the Django framework, including subdomain-based URL routing.
+Home-page: http://github.com/tkaemming/django-subdomains/
+Author: ted kaemming
+Author-email: ted@kaemming.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN

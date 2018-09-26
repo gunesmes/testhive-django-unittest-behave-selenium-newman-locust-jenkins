@@ -1,0 +1,15 @@
+CONTAINER ID        IMAGE                                                       COMMAND                  CREATED             STATUS                              PORTS                    NAMES
+1faba26e4351        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (1) 2 seconds ago                                     test_create_on_desktop
+a7d5455caf36        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (1) 2 seconds ago                                     test_create_on_iphoneX
+5b3a66fa70ff        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) Less than a second ago                            test_create_check_on_pixel2
+ade248f6c552        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (1) 3 seconds ago                                     test_create_on_iphone6
+9a417471ce12        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) 4 seconds ago                                     test_create_on_pixel2
+6ee7c5c91661        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) Less than a second ago                            test_create_check_on_iphoneX
+f9ebb062d278        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) Less than a second ago                            test_create_check_on_desktop
+6b872270807f        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) 21 seconds ago                                    test_user_check_on_pixel2
+4ec7276d76ba        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) 21 seconds ago                                    test_user_check_on_iphone6
+7595bf93e13c        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) 22 seconds ago                                    test_user_check_on_desktop
+944c87ce9c7b        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) 1 second ago                                      test_create_check_on_iphone6
+4574b6be5c1d        gunesmes/python-selenium-behave-page-object-docker:latest   "bash -c 'export BRO…"   31 seconds ago      Exited (0) 21 seconds ago                                    test_user_check_on_iphoneX
+8a22cf292ef7        app_web                                                     "bash -c 'python3 ma…"   2 hours ago         Up 2 hours                          0.0.0.0:8001->8001/tcp   app_web_1
+080a17609417        postgres:latest                                             "docker-entrypoint.s…"   2 hours ago         Up 2 hours                          0.0.0.0:5432->5432/tcp   postgres

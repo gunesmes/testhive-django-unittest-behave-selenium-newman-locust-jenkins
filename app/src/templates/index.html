@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="static/app.js"></script>
+    {% load static %}
+    {% load staticfiles %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.registerbtn:hover {
+    opacity:5 ;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 0px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+th {
+    background-color: #d2d2d2
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.success {
+    color: #0ce616;
+}
+.warning {
+    color: #fb1313;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a id="users-nav" onclick="usersAct()" class="active" href="/">Users</a>
+  <a id="register-nav" onclick="registerAct()" href="#">Register</a>
+</div>
+
+<div class="container">
+<div id="usersList">
+    <h1>Users</h1>
+    <p>These are registered users, if you want to add new users click <strong>Register</strong> button.</p>
+    <hr>
+    <table id="userListTable">
+      <tr>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Birthday</th>
+        <th>Address</th>
+      </tr>
+        {% for user in users %}
+      <tr>
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.birthday }}</td>
+        <td>{{ user.address }}</td>
+      </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<form role="form" id="registerForm" hidden>
+    {% csrf_token %}
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <div id="info"></div>
+
+    <hr>
+    <label for="username"><b>User Name</b></label>
+    <input type="text" placeholder="Enter User Name" id="username" required>
+
+	<label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" id="email" required>
+
+	<label for="birthday"><b>Birtdate</b></label>
+  	<input type="date" id="birthday" required>
+
+
+    <label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" id="address" required>
+    <hr>
+
+    <button type="submit" id="registerbtn" class="registerbtn" >Register</button>
+</form>
+</div>
+
+
+<script>
+	function registerAct() {
+    	document.getElementById("registerForm").removeAttribute("hidden");
+    	document.getElementById("registerForm").style.display="block";
+    	document.getElementById("usersList").style.display="none";
+    	document.getElementById("register-nav").classList.add('active');
+    	document.getElementById("users-nav").classList.remove('active');
+    }
+
+	function usersAct() {
+    	document.getElementById("registerForm").style.display="none";
+    	document.getElementById("usersList").style.display="block";
+    	document.getElementById("register-nav").classList.remove('active');
+    	document.getElementById("users-nav").classList.add('active');
+    }
+</script>
+
+</body>
+</html>

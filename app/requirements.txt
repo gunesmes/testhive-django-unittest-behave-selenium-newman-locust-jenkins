@@ -1,0 +1,7 @@
+Django>=2.0
+psycopg2-binary
+pyquery
+locustio
+passlib
+django-subdomains
+pytz

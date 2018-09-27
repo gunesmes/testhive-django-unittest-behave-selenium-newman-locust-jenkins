@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # Python Selenium Behave Page-Object-Model(POM) Docker
 Run your Selenium BDD test cases in Docker. Python, Selenium, Behave, Chrome, Docker.
 
@@ -9,6 +8,26 @@ Run your Selenium BDD test cases in Docker. Python, Selenium, Behave, Chrome, Do
 way with some little differences. See the demo which runs Behave in Docker:
 ![Behave demo GIF](img/behave.gif)
 
+# Running a Feature on Docker
+```bash
+~/P/p/m/web-automation (master ⚡☡=) docker run --network host --rm --name behave -v $PWD:/project gunesmes/python-selenium-behave-page-object-docker bash -c "uname -o && export BROWSER=iphone6 && behave features/M001-users_checking.feaure"
+GNU/Linux
+Feature: Checking users # features/M001-users_checking.feature:1
+
+  Background: go to the main page of the app  # features/M001-users_checking.feature:3
+
+  @user_check @smoke
+  Scenario: Users page feature      # features/M001-users_checking.feature:7
+    Given I open the web app        # features/steps/map_users_create.py:10
+    When I should see created users # features/steps/map_users_create.py:80
+
+
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+2 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.785s
+```
 
 # Running UI Test on CI
 For CI, whole tests can be by run `bash run_web_automation.sh`. Each tags run for each platforms in different docker 
@@ -18,6 +37,7 @@ instance. Therefore for this demo, there 12 docker instance runs the test cases.
 * Platforms: `desktop` `iphone6` `iphoneX` `pixel2` 
 
 ```bash
+~/P/p/m/web-automation (master ⚡☡=) bash run_web_automation.sh
  - Get the latest docker images
 latest: Pulling from gunesmes/python-selenium-behave-page-object-docker
 Digest: sha256:4a7a571911bc53b902e7a904ee9653d6738c527f9d74d32df76703c8c8c323db

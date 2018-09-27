@@ -26,11 +26,8 @@ for tag in \
 		do
 			
 		run_name=test_${tag}_on_${platform}
-		run_command=" --tags @$platform DRIVER=driver_$platform"
 		echo " - Running tests: $tag on $platform"
 		
-		# docker run --network host --shm-size 256M --name ${run_name} -v $PWD:/project ${behave_image} bash -c "export BROWSER=$platform && behave features --tags @'$tag' && exit 0" && echo "Finished $tag on $platform:" && duration=$SECONDS && echo -e " - $(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed.\n" && docker rm -f ${run_name} &
-		# docker run --network host --shm-size 256M --name ${run_name} -v $PWD:/project ${behave_image} bash -c "export BROWSER=$platform && behave -f allure_behave.formatter:AllureFormatter -o report features --tags @'$tag' && exit 0" && duration=$SECONDS && echo -e "\n --> Finished $tag on $platform. $(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed.\n" &
 		docker run --network host --shm-size 256M --name ${run_name} -v $PWD:/project ${behave_image} bash -c "export BROWSER=$platform && behave -f allure_behave.formatter:AllureFormatter -o report features --tags @'$tag' && exit 0 " &
 	done
 done

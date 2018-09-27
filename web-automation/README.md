@@ -10,7 +10,7 @@ way with some little differences. See the demo which runs Behave in Docker:
 
 # Running a Feature on Docker
 ```bash
-~/P/p/m/web-automation (master ⚡☡=) docker run --network host --rm --name behave -v $PWD:/project gunesmes/python-selenium-behave-page-object-docker bash -c "uname -o && export BROWSER=iphone6 && behave features/M001-users_checking.feaure"
+~/P/p/m/web-automation (master ⚡☡=) docker run --network host --rm --name behave -v $PWD:/project gunesmes/python-selenium-behave-page-object-docker bash -c "export BROWSER=iphone6 && behave features/M001-users_checking.feaure"
 GNU/Linux
 Feature: Checking users # features/M001-users_checking.feature:1
 
@@ -31,7 +31,7 @@ Took 0m0.785s
 
 # Running UI Test on CI
 For CI, whole tests can be by run `bash run_web_automation.sh`. Each tags run for each platforms in different docker 
-instance. Therefore for this demo, there 12 docker instance runs the test cases. `20 test casea` took `3 seconds` to finish. See the logs: 
+instance. Therefore for this demo, there 12 docker instance runs the test cases. `20 test casea` took `33 seconds` to finish. See the logs: 
 
 * Tags: `create`, `create_check`, `user_check`
 * Platforms: `desktop` `iphone6` `iphoneX` `pixel2` 

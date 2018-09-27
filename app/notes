@@ -1,5 +1,0 @@
->>> def curr():
-...  conn = psycopg2.connect("dbname='postgres' user='postgres' host=db password='postgres'")
-...  cur = conn.cursor()
-
-

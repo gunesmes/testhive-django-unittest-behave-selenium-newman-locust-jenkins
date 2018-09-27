@@ -1,10 +1,10 @@
 # Project Structure
 
-* *app* --> Application develop with Django. There is readme about running and unittest.
-* *app/src/tests* --> Unit test folder. You find more information about it in README in app.
-* *service-test* --> Service tests are prepeared in Postman and created a collection. For more info, there is a README file in the project.
-* *web-automation* --> For web automation project, test cases are written in BBD with Python so Behave as a framework is used for the project. For more information and how to run in docker, you can README file in the project.
-* *performance-test* --> Locust is used for performance testing. Performance test should be run against to test environment so need to set the host in the script.
+* **app**               --> Application develop with Django. There is readme about running and unittest.
+* **app/src/tests**     --> Unit test folder. You find more information about it in README in app.
+* **service-test**      --> Service tests are prepeared in Postman and created a collection. For more info, there is a README file in the project.
+* **web-automation**    --> For web automation project, test cases are written in BBD with Python so Behave as a framework is used for the project. For more information and how to run in docker, you can README file in the project.
+* **performance-test**  --> Locust is used for performance testing. Performance test should be run against to test environment so need to set the host in the script.
 
 # CI
 For running all the tests as a stage in development process a development pipeline can be preperad in Jenkins. jenkins can be run in a docker but the data should be mounted by `v` for persistency. The following command can be run. Username/Password: `admin/admin`
@@ -46,5 +46,6 @@ node(build-slave) {
    }
 }
 ```
+
 
 ![Jenkins Sample Pipeline](jenkins-sample-pipeline.png)

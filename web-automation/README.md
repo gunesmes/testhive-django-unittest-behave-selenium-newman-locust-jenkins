@@ -31,7 +31,7 @@ Took 0m0.785s
 
 # Running UI Test on CI
 For CI, whole tests can be by run `bash run_web_automation.sh`. Each tags run for each platforms in different docker 
-instance. Therefore for this demo, there 12 docker instance runs the test cases. `20 test casea` took `33 seconds` to finish. See the logs: 
+instance. Therefore for this demo, there 12 docker instance runs the test cases. `20 test casea` took `34 seconds` to finish. See the logs: 
 
 * Tags: `create`, `create_check`, `user_check`
 * Platforms: `desktop` `iphone6` `iphoneX` `pixel2` 

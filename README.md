@@ -1,10 +1,14 @@
 # Project Structure
 
-* **app**               --> Application develop with Django. There is README about running and unittest.
-* **app/src/tests**     --> Unit test folder. You find more information about it in README in app.
-* **service-test**      --> Service tests are prepeared in Postman and created a collection. For more info, there is a README file in the project.
-* **web-automation**    --> For web automation project, test cases are written in BBD with Python so Behave as a framework is used for the project. For more information and how to run in docker, you can README file in the project.
-* **performance-test**  --> Locust is used for performance testing. Performance test should be run against to test environment so need to set the host in the script.
+Before running the application and tests, you find the related information below:
+
+|Component| Description  |
+|--|--|
+| **app**               | Application develop with Django. There is README about running and unittest.|
+|**app/src/tests** | Unit test folder. You find more information about it in README in app.|
+|**service-test**    | Service tests are prepeared in Postman and created a collection. For more info, there is a README file in the project.|
+|**web-automation**    | For web automation project, test cases are written in BBD with Python so Behave as a framework is used for the project. For more information and how to run in docker, you can find the README file in the project.|
+|**performance-test** | Locust is used for performance testing. Performance test should be run against to test environment so need to set the host in the script.|
 
 # CI
 For running all the tests as a stage in development process a development pipeline can be preperad in Jenkins. jenkins can be run in a docker but the data should be mounted for persistency. 
@@ -60,4 +64,5 @@ Unit tests covers the views, models and forms functionalities. Service tests cov
 For mobile application, pipeline may be devide into two part. The first part is backen/api development and the seconde pipeline should be for mobile development. 
 * For api development; unit tests, service tests should run. Plus the mobile application automated tests should run against the newly developped api services with the application in the live. With this way, any regression issues can be found before the api release.
 * For mobile application development, every new commit should trigger the pipeline and mobile test automation should be started after api server and new mobile app package are ready. Compiling app package should be also automated. 
+
 

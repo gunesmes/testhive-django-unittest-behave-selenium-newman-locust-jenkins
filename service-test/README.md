@@ -1,4 +1,4 @@
-Service test are prepeared in Postman, it can be open via [Postman Collection](https://www.getpostman.com/collections/99ff74d42bbbcfcdc1e7) link. This link is also used for running the collection in Newman docker so other team member can be update it. There is also exported json for collection in the path, name: `mapillary.postman_collection.json`
+Service test are prepeared in Postman, it can be open via [Postman Collection](https://www.getpostman.com/collections/ac3d0d9bbd8ae1bcfe5d) link. This link is also used for running the collection in Newman docker so other team member can be update it. There is also exported json for collection in the path, name: `mapillary.postman_collection.json`
 
 
 # Demo
@@ -6,7 +6,7 @@ Service test are prepeared in Postman, it can be open via [Postman Collection](h
 
 
 # Check the Postman test cases
-1. Click [Postman Collection](https://www.getpostman.com/collections/99ff74d42bbbcfcdc1e7)
+1. Click [Postman Collection](https://www.getpostman.com/collections/ac3d0d9bbd8ae1bcfe5d)
 2. Click the test tab
 
 # Running the service test
@@ -24,7 +24,7 @@ docker-compose up
 I have create [Newman image](https://hub.docker.com/r/gunesmes/newman-postman-html-report) in hub.docker, so we need to pull it first then we use it.
 
 ```
-docker run --network host -v $PWD:/newman gunesmes/newman-postman-html-report run https://www.getpostman.com/collections/99ff74d42bbbcfcdc1e7 --reporters cli,html --reporter-html-template report-template.hbs
+docker run --network host -v $PWD:/newman gunesmes/newman-postman-html-report run https://www.getpostman.com/collections/ac3d0d9bbd8ae1bcfe5d --reporters cli,html --reporter-html-template report-template.hbs
 ```
 
 ## Need to restore data

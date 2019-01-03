@@ -1,10 +1,50 @@
 {
 	"info": {
-		"_postman_id": "bdda70a4-9c68-49f8-9966-9f4ce6fd5e0f",
-		"name": "mapillary",
+		"_postman_id": "d1c20b34-11f3-40ff-b870-c974e0d16dd2",
+		"name": "blog-sample-service",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
+		{
+			"name": "ping",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "626dc7ab-61a6-4854-b57b-2e2fc6a89132",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string to 'pong'\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"pong\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/ping",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
 		{
 			"name": "get-users",
 			"event": [
@@ -12,7 +52,6 @@
 					"listen": "test",
 					"script": {
 						"id": "626dc7ab-61a6-4854-b57b-2e2fc6a89132",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -39,20 +78,23 @@
 							"    pm.expect(jsonData[1][\"fields\"][\"address\"]).to.eql(\"Studio 103 Wellfield Road Roath Cardiff\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
-					"raw": "localhost:8001/api/users",
+					"raw": "{{url}}/api/users",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"users"
@@ -68,7 +110,6 @@
 					"listen": "test",
 					"script": {
 						"id": "55f0fcc0-1feb-4f7e-b327-8efba482927d",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 201\", function () {",
 							"    pm.response.to.have.status(201);",
@@ -84,7 +125,8 @@
 							"    pm.expect(jsonData['message']).to.eql(\"User is recorded with given informations.\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -127,11 +169,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"
@@ -147,7 +188,6 @@
 					"listen": "test",
 					"script": {
 						"id": "c6a965e4-20c6-41dc-b505-e05637352e05",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 202\", function () {",
 							"    pm.response.to.have.status(202);",
@@ -163,7 +203,8 @@
 							"    pm.expect(jsonData['message']).to.eql(\"Member already recorded!\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -206,11 +247,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"
@@ -226,7 +266,6 @@
 					"listen": "test",
 					"script": {
 						"id": "635f2200-fc34-4b91-a134-d3f303395e9a",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 202\", function () {",
 							"    pm.response.to.have.status(202);",
@@ -242,7 +281,8 @@
 							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -285,11 +325,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"
@@ -305,7 +344,6 @@
 					"listen": "test",
 					"script": {
 						"id": "30b65e63-5a2c-4957-9ff0-3484d6275904",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 202\", function () {",
 							"    pm.response.to.have.status(202);",
@@ -321,7 +359,8 @@
 							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -364,11 +403,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"
@@ -384,7 +422,6 @@
 					"listen": "test",
 					"script": {
 						"id": "6dbddb50-49a0-430e-b077-df1e4d10e798",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 202\", function () {",
 							"    pm.response.to.have.status(202);",
@@ -400,7 +437,8 @@
 							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -443,11 +481,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"
@@ -463,7 +500,6 @@
 					"listen": "test",
 					"script": {
 						"id": "57579260-63e4-42ca-b37a-51f64e441753",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 202\", function () {",
 							"    pm.response.to.have.status(202);",
@@ -479,7 +515,8 @@
 							"    pm.expect(jsonData['message']).to.eql(\"All fields should be entered!\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -522,11 +559,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"
@@ -542,7 +578,6 @@
 					"listen": "test",
 					"script": {
 						"id": "eaf4393a-5ec6-498d-831d-39306a54e03f",
-						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code should be 202\", function () {",
 							"    pm.response.to.have.status(202);",
@@ -558,7 +593,8 @@
 							"    pm.expect(jsonData['message']).to.include(\"value has an invalid date format. It must be in YYYY-MM-DD form\");",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -601,11 +637,10 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8001/api/register",
+					"raw": "{{url}}/api/register",
 					"host": [
-						"localhost"
+						"{{url}}"
 					],
-					"port": "8001",
 					"path": [
 						"api",
 						"register"

@@ -26,23 +26,23 @@
   <div class="container">
     <h3>Newman Report</h3>
     <div class="row">
-        <div class="col-md-3">Collection</div><div class="col-md-9">mapillary</div>
+        <div class="col-md-3">Collection</div><div class="col-md-9">blog-sample-service</div>
         
-        <div class="col-md-3">Time</div><div class="col-md-9">Wed Sep 26 2018 22:46:09 GMT+0000 (UTC)</div>
-        <div class="col-md-3">Exported with</div><div class="col-md-9">Newman v4.1.0</div>
+        <div class="col-md-3">Time</div><div class="col-md-9">Thu Jan 03 2019 14:32:32 GMT+0300 (GMT+03:00)</div>
+        <div class="col-md-3">Exported with</div><div class="col-md-9">Newman v</div>
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-4">&nbsp;</div><div class="col-md-4"><strong>Total</strong></div><div class="col-md-4"><strong>Failed</strong></div>
 
           <div class="col-md-4">Iterations</div><div class="col-md-4">1</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Requests</div><div class="col-md-4">8</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Requests</div><div class="col-md-4">9</div><div class="col-md-4">0</div>
           <div class="col-md-4">Prerequest Scripts</div><div class="col-md-4">0</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Test Scripts</div><div class="col-md-4">8</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Assertions</div><div class="col-md-4">25</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Test Scripts</div><div class="col-md-4">9</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Assertions</div><div class="col-md-4">27</div><div class="col-md-4">0</div>
 
         <div class="col-md-12">&nbsp;</div>
-        <div class="col-md-6">Total run duration</div><div class="col-md-6">623ms</div>
-        <div class="col-md-6">Total data received</div><div class="col-md-6">858B (approx)</div>
-        <div class="col-md-6">Average response time</div><div class="col-md-6">19ms</div>
+        <div class="col-md-6">Total run duration</div><div class="col-md-6">378ms</div>
+        <div class="col-md-6">Total data received</div><div class="col-md-6">862B (approx)</div>
+        <div class="col-md-6">Average response time</div><div class="col-md-6">15ms</div>
 
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-3"><strong>Total Failures</strong></div><div class="col-md-6"><strong></strong></div>
@@ -50,20 +50,56 @@
 
     <br/><h4>Requests</h4>
 
-                <div class="panel-group" id="collapse-request-8efa6362-9ba4-4277-99db-439a825ed008" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-072e7dd5-6ff5-411c-a0c1-9707be079805" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-8efa6362-9ba4-4277-99db-439a825ed008">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-8efa6362-9ba4-4277-99db-439a825ed008" aria-controls="collapseOne">get-users</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-072e7dd5-6ff5-411c-a0c1-9707be079805">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-072e7dd5-6ff5-411c-a0c1-9707be079805" aria-controls="collapseOne">ping</a></h4>
                         </div>
         
-                        <div id="requestData-8efa6362-9ba4-4277-99db-439a825ed008" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-8efa6362-9ba4-4277-99db-439a825ed008">
+                        <div id="requestData-072e7dd5-6ff5-411c-a0c1-9707be079805" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-072e7dd5-6ff5-411c-a0c1-9707be079805">
+                            <div class="panel-body">
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/ping" target="_blank">localhost:8001/api/ping</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">22ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">4B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code is 200</td><td>1</td><td>0</td></tr><tr><td>Body matches string to &#x27;pong&#x27;</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-4593c289-6aaa-41d0-8db4-94383a03f7cd" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-4593c289-6aaa-41d0-8db4-94383a03f7cd">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-4593c289-6aaa-41d0-8db4-94383a03f7cd" aria-controls="collapseOne">get-users</a></h4>
+                        </div>
+        
+                        <div id="requestData-4593c289-6aaa-41d0-8db4-94383a03f7cd" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-4593c289-6aaa-41d0-8db4-94383a03f7cd">
                             <div class="panel-body">
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
                                     <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/users" target="_blank">localhost:8001/api/users</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">36ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">19ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">369B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -86,20 +122,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-95082a5b-b7cc-4e0f-ab57-61c117a9ddf4" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-71482eb9-39ed-499d-9c18-4d3289cfcf56" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-95082a5b-b7cc-4e0f-ab57-61c117a9ddf4">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-95082a5b-b7cc-4e0f-ab57-61c117a9ddf4" aria-controls="collapseOne">register-user-success</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-71482eb9-39ed-499d-9c18-4d3289cfcf56">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-71482eb9-39ed-499d-9c18-4d3289cfcf56" aria-controls="collapseOne">register-user-success</a></h4>
                         </div>
         
-                        <div id="requestData-95082a5b-b7cc-4e0f-ab57-61c117a9ddf4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-95082a5b-b7cc-4e0f-ab57-61c117a9ddf4">
+                        <div id="requestData-71482eb9-39ed-499d-9c18-4d3289cfcf56" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-71482eb9-39ed-499d-9c18-4d3289cfcf56">
                             <div class="panel-body">
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
                                     <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">35ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">16ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">72B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -122,20 +158,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-ba0e2999-571e-4cd1-b4db-7471f92bf25c" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-bd0590df-e119-40d7-ad0b-4328a9842d2b" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-ba0e2999-571e-4cd1-b4db-7471f92bf25c">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-ba0e2999-571e-4cd1-b4db-7471f92bf25c" aria-controls="collapseOne">register-user-fail-already-member</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-bd0590df-e119-40d7-ad0b-4328a9842d2b">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-bd0590df-e119-40d7-ad0b-4328a9842d2b" aria-controls="collapseOne">register-user-fail-already-member</a></h4>
                         </div>
         
-                        <div id="requestData-ba0e2999-571e-4cd1-b4db-7471f92bf25c" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-ba0e2999-571e-4cd1-b4db-7471f92bf25c">
+                        <div id="requestData-bd0590df-e119-40d7-ad0b-4328a9842d2b" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-bd0590df-e119-40d7-ad0b-4328a9842d2b">
                             <div class="panel-body">
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
                                     <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">19ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">14ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">56B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -158,20 +194,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-eb918a95-fca2-4e1f-907e-cb12d432dc6b" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-6e2a768e-28a3-41fc-a3f5-c3dd2516d8ee" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-eb918a95-fca2-4e1f-907e-cb12d432dc6b">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-eb918a95-fca2-4e1f-907e-cb12d432dc6b" aria-controls="collapseOne">register-user-fail-empty-username</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-6e2a768e-28a3-41fc-a3f5-c3dd2516d8ee">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-6e2a768e-28a3-41fc-a3f5-c3dd2516d8ee" aria-controls="collapseOne">register-user-fail-empty-username</a></h4>
                         </div>
         
-                        <div id="requestData-eb918a95-fca2-4e1f-907e-cb12d432dc6b" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-eb918a95-fca2-4e1f-907e-cb12d432dc6b">
+                        <div id="requestData-6e2a768e-28a3-41fc-a3f5-c3dd2516d8ee" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-6e2a768e-28a3-41fc-a3f5-c3dd2516d8ee">
                             <div class="panel-body">
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
                                     <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">7ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">6ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">61B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -194,13 +230,85 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-93171cfb-35fd-40c2-b88a-90242e97a0d1" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-b8a02689-3476-42e8-b23c-296c616eb5fe" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-93171cfb-35fd-40c2-b88a-90242e97a0d1">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-93171cfb-35fd-40c2-b88a-90242e97a0d1" aria-controls="collapseOne">register-user-fail-empty-email</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-b8a02689-3476-42e8-b23c-296c616eb5fe">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-b8a02689-3476-42e8-b23c-296c616eb5fe" aria-controls="collapseOne">register-user-fail-empty-email</a></h4>
                         </div>
         
-                        <div id="requestData-93171cfb-35fd-40c2-b88a-90242e97a0d1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-93171cfb-35fd-40c2-b88a-90242e97a0d1">
+                        <div id="requestData-b8a02689-3476-42e8-b23c-296c616eb5fe" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-b8a02689-3476-42e8-b23c-296c616eb5fe">
+                            <div class="panel-body">
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">11ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">61B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">202</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code should be 202</td><td>1</td><td>0</td></tr><tr><td>Result should be true</td><td>1</td><td>0</td></tr><tr><td>Message should be correct</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-1169cc8d-a465-43a5-940c-113bf8261e5d" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-1169cc8d-a465-43a5-940c-113bf8261e5d">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-1169cc8d-a465-43a5-940c-113bf8261e5d" aria-controls="collapseOne">register-user-fail-empty-birthday</a></h4>
+                        </div>
+        
+                        <div id="requestData-1169cc8d-a465-43a5-940c-113bf8261e5d" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-1169cc8d-a465-43a5-940c-113bf8261e5d">
+                            <div class="panel-body">
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">14ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">61B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">202</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code should be 202</td><td>1</td><td>0</td></tr><tr><td>Result should be true</td><td>1</td><td>0</td></tr><tr><td>Message should be correct</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-33077a5e-3366-4fbb-a802-56891839a1b0" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-33077a5e-3366-4fbb-a802-56891839a1b0">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-33077a5e-3366-4fbb-a802-56891839a1b0" aria-controls="collapseOne">register-user-fail-empty-address</a></h4>
+                        </div>
+        
+                        <div id="requestData-33077a5e-3366-4fbb-a802-56891839a1b0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-33077a5e-3366-4fbb-a802-56891839a1b0">
                             <div class="panel-body">
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
@@ -230,92 +338,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-fedfea67-2c99-427a-af9d-2701025f95e0" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-4023df1e-dd64-40e1-bfdb-7456ef533637" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-fedfea67-2c99-427a-af9d-2701025f95e0">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-fedfea67-2c99-427a-af9d-2701025f95e0" aria-controls="collapseOne">register-user-fail-empty-birthday</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-4023df1e-dd64-40e1-bfdb-7456ef533637">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-4023df1e-dd64-40e1-bfdb-7456ef533637" aria-controls="collapseOne">register-user-fail-worng-format-birthday</a></h4>
                         </div>
         
-                        <div id="requestData-fedfea67-2c99-427a-af9d-2701025f95e0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-fedfea67-2c99-427a-af9d-2701025f95e0">
+                        <div id="requestData-4023df1e-dd64-40e1-bfdb-7456ef533637" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-4023df1e-dd64-40e1-bfdb-7456ef533637">
                             <div class="panel-body">
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
                                     <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">12ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">61B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">202</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code should be 202</td><td>1</td><td>0</td></tr><tr><td>Result should be true</td><td>1</td><td>0</td></tr><tr><td>Message should be correct</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-4becf513-6653-4368-883b-6ffc3c2b26c1" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-4becf513-6653-4368-883b-6ffc3c2b26c1">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-4becf513-6653-4368-883b-6ffc3c2b26c1" aria-controls="collapseOne">register-user-fail-empty-address</a></h4>
-                        </div>
-        
-                        <div id="requestData-4becf513-6653-4368-883b-6ffc3c2b26c1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-4becf513-6653-4368-883b-6ffc3c2b26c1">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">10ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">61B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">202</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code should be 202</td><td>1</td><td>0</td></tr><tr><td>Result should be true</td><td>1</td><td>0</td></tr><tr><td>Message should be correct</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-e334d6f2-197d-43be-a36f-2a39d3187387" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-e334d6f2-197d-43be-a36f-2a39d3187387">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-e334d6f2-197d-43be-a36f-2a39d3187387" aria-controls="collapseOne">register-user-fail-worng-format-birthday</a></h4>
-                        </div>
-        
-                        <div id="requestData-e334d6f2-197d-43be-a36f-2a39d3187387" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-e334d6f2-197d-43be-a36f-2a39d3187387">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="localhost:8001/api/register" target="_blank">localhost:8001/api/register</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">29ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">25ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">117B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>

@@ -9,7 +9,7 @@ import os
 
 def before_scenario(context, scenario):
 	options = Options()
-	options.add_argument("--headless") 					# Runs Chrome in headless mode.
+	#options.add_argument("--headless") 					# Runs Chrome in headless mode.
 	options.add_argument('--no-sandbox') 				# Bypass OS security model3
 	options.add_argument('--disable-infobars')
 	options.add_argument('--disable-extensions')

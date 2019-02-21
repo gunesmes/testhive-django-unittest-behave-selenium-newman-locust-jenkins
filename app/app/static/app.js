@@ -76,3 +76,25 @@ function RegisterFormSubmit() {
     }
     isRegisterProcessing = true;
 }
+
+function getUser(username) {
+
+    $.ajax({
+        "type": "GET",
+        "dataType": "json",
+        "url": "api/user",
+        "data": {
+            "username": username
+        },
+        "success": function (result) {
+            console.log(result[0]["fields"])
+            user_info = "";
+            for (var key in result[0]["fields"]) {
+                user_info += result[0]["fields"][key] + "\n";
+            }
+            console.log(user_info)
+            alert(user_info)
+
+        }
+    });
+}

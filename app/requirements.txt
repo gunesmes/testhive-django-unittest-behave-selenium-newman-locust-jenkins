@@ -5,3 +5,6 @@ locustio
 passlib
 django-subdomains
 pytz
+django-nose
+coverage
+freeze

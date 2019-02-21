@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
-
+# If django_nose coverage not used, this is to run each unit test separately
 
 for module in \
 	"models" \
-	"views" \
-	"forms"
+	"forms" \
+	"views"
 	do
-    docker exec -it app_web_1  bash -c "cd /code && python  manage.py test src.tests.test_${module} -v 0"
+	echo -e "\n - ${module} is testing . . . \n"
+    docker exec -it testhive-app bash -c "cd /code && python manage.py test tests.test_${module} -v 2"
 done
 
 nohup docker system prune -f &

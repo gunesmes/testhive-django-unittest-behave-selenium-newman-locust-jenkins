@@ -1,14 +1,14 @@
 ---------------------------
-Logs of docker-9cba67de53b2
+Logs of docker-b172601be27e
 
 
 1 feature passed, 0 failed, 1 skipped
 1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m24.696s
+2 steps passed, 0 failed, 31 skipped, 0 undefined
+Took 0m4.151s
 ---------------------------
 ---------------------------
-Logs of docker-d46f087d548e
+Logs of docker-00ce14127023
 
 
 
@@ -22,10 +22,46 @@ Failing scenarios:
 0 features passed, 1 failed, 1 skipped
 2 scenarios passed, 1 failed, 2 skipped
 26 steps passed, 1 failed, 6 skipped, 0 undefined
-Took 0m18.140s
+Took 0m22.883s
 ---------------------------
 ---------------------------
-Logs of docker-6fe338ce79af
+Logs of docker-7c3ba66de63b
+
+
+1 feature passed, 0 failed, 1 skipped
+1 scenario passed, 0 failed, 4 skipped
+4 steps passed, 0 failed, 29 skipped, 0 undefined
+Took 0m26.425s
+---------------------------
+---------------------------
+Logs of docker-34ea82943aca
+
+
+1 feature passed, 0 failed, 1 skipped
+1 scenario passed, 0 failed, 4 skipped
+4 steps passed, 0 failed, 29 skipped, 0 undefined
+Took 0m28.605s
+---------------------------
+---------------------------
+Logs of docker-e6b6422dbd48
+
+
+1 feature passed, 0 failed, 1 skipped
+1 scenario passed, 0 failed, 4 skipped
+4 steps passed, 0 failed, 29 skipped, 0 undefined
+Took 0m29.047s
+---------------------------
+---------------------------
+Logs of docker-38be7c0cfbbb
+
+
+1 feature passed, 0 failed, 1 skipped
+1 scenario passed, 0 failed, 4 skipped
+2 steps passed, 0 failed, 31 skipped, 0 undefined
+Took 0m3.584s
+---------------------------
+---------------------------
+Logs of docker-64caf2280d9b
 
 
 
@@ -39,19 +75,10 @@ Failing scenarios:
 0 features passed, 1 failed, 1 skipped
 2 scenarios passed, 1 failed, 2 skipped
 26 steps passed, 1 failed, 6 skipped, 0 undefined
-Took 0m18.144s
+Took 0m22.620s
 ---------------------------
 ---------------------------
-Logs of docker-af66a2d38e6f
-
-
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m26.357s
----------------------------
----------------------------
-Logs of docker-293f4a8df831
+Logs of docker-dd4eaf8865e2
 
 
 
@@ -61,28 +88,10 @@ Logs of docker-293f4a8df831
 1 feature passed, 0 failed, 1 skipped
 3 scenarios passed, 0 failed, 2 skipped
 27 steps passed, 0 failed, 6 skipped, 0 undefined
-Took 0m18.035s
+Took 0m22.407s
 ---------------------------
 ---------------------------
-Logs of docker-e2e0b2da6ebd
-
-
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m2.227s
----------------------------
----------------------------
-Logs of docker-ceb619c9035d
-
-
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m1.879s
----------------------------
----------------------------
-Logs of docker-754680d16e8e
+Logs of docker-306e903d3e24
 
 
 
@@ -96,41 +105,32 @@ Failing scenarios:
 0 features passed, 1 failed, 1 skipped
 2 scenarios passed, 1 failed, 2 skipped
 26 steps passed, 1 failed, 6 skipped, 0 undefined
-Took 0m18.635s
+Took 0m22.156s
 ---------------------------
 ---------------------------
-Logs of docker-1789d1e6db77
-
-
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m25.063s
----------------------------
----------------------------
-Logs of docker-dd7d5fa48906
+Logs of docker-bf6ee79fa422
 
 
 1 feature passed, 0 failed, 1 skipped
 1 scenario passed, 0 failed, 4 skipped
 2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m1.779s
+Took 0m4.000s
 ---------------------------
 ---------------------------
-Logs of docker-c26e720f7de8
-
-
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m22.801s
----------------------------
----------------------------
-Logs of docker-160e1d30dd00
+Logs of docker-1f4f8925e6bc
 
 
 1 feature passed, 0 failed, 1 skipped
 1 scenario passed, 0 failed, 4 skipped
 2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m1.972s
+Took 0m3.890s
+---------------------------
+---------------------------
+Logs of docker-1876a578c8dc
+
+
+1 feature passed, 0 failed, 1 skipped
+1 scenario passed, 0 failed, 4 skipped
+4 steps passed, 0 failed, 29 skipped, 0 undefined
+Took 0m27.321s
 ---------------------------

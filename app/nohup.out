@@ -4,3 +4,161 @@ Deleted Containers:
 Total reclaimed space: 2.246MB
 Total reclaimed space: 0B
 Total reclaimed space: 0B
+Total reclaimed space: 0B
+Deleted Containers:
+f17b7f7aac72ac293afc341e6a8105c217553afc8094c5213fb7be6b35882972
+a83165cb0702c2be03bf50d5d0eab6f179c30770e52b672ea6fd6ae65f2de66b
+96b2cff34a58e62a0398dd656e30246fbb07a733a0b076209770388ca176bf8c
+c37f1b282b9010b025de921a4df25a664ff8274d385a7dba4717a9a0db3c3f12
+03b2369d52252b7c6449e487fe0d94195a9766641dd259b90bd4c110af8cedb0
+e96ee85e49c1c2f020e21656e2a5172f36268d1dd077372a175638852d797f5a
+c89672c670666e088291bca54b0d128454261f8444f6fecfe2ace4714e76b0eb
+70dc33764b1a5175e349ee949c03a666d2f564a6e8f4667f911d1e758f6461f6
+60377d3c07f99e26465717be10470824619ead1ff2524719dd746332a106644e
+d5ae06fdf4c1eb0536d6c3457b891426f742838fc1a28ad67ba2b7529d93b453
+295dd43bb44cffd7ad8da26dffd1f5e550f296e204bdf7d70c632e7aba052e01
+c222a56a5d781982aa5d25ead9292c2b9f87c44793686f7fd51dc04ed6215c86
+142a3c6081d5938f51c1f6f32dcb8d7de26f05aec32a80cb823a1c8e38c9a40c
+4a4a44f011fd5ef6524d5b96692913ac6b112c9e70890a80359be4eb12d895ba
+5dcec171c5e55953b58fae3a5955ee5196ace76cfff75afb64f5988c26da51b5
+f484f97895a20087b5613e5a16f0889e092ab2e140936ac42da6d080815fd899
+23fa11cc129f743a0fe3ce7e2c1bbd1af824fc65f7eadee343a5e55b107e510a
+950bea412de6c1235ce910b4b05bf46b62e4b93578698e0725310a94b2c82bfa
+bf677b40d9025b5ea36312e503884fe57585d64fff926927376b601d95fef464
+ec8c5654fd55417f504ec72d1ade0d9b4c4fa147679f89fcc77f8f25c1489e5d
+f16e2e05c5e5d5857588ebe81726199ddb30a68aa1e55209638a45f6aa2843b8
+6fed6603249b0892c3a50bd99bc82d88176123a7fec013fa3a9a0f546c8d99f8
+54ff51516cdc08b9f3333a59cbb6ef11032055221bcedaafbfbd85cdc079cd8a
+721232565fbaaf45e1993bf0ae79474f2ee8b93971025bf304ca199bd38055eb
+f0ab919435e172d9ba5180b661f64d9b9381978cac218e072fbad69c9da2ad52
+56062dc800fe7cfa88b3b8f06ab973418a68214cd911c3f5b5c84cac32e6a253
+904ea0d605ddb690129df7da1ceea1e22ba3718f4c876ee6bdbd207f6c1a11c6
+
+Deleted Networks:
+k6_default
+
+Deleted Images:
+deleted: sha256:e6a32fe1c6eec643cdc8b029ecf8e6cebc9da67e763d47a681a9273fe79a7194
+deleted: sha256:08fe8b39d309d13b3a7eb407ad33a80c70a532674deb5312f11175c0ffc8e273
+deleted: sha256:fde960bd73ee241eb120ccc662edae76f596915f48aa0f74d7d9dadd5928696d
+deleted: sha256:acc942688661c8066dd03581bafeb699bb592ddd10ebc495918207e988a85f24
+deleted: sha256:50033e4e9539d0b825960cd31f1ff09daf51115ba05a26a8e160e906629a5ee5
+deleted: sha256:e72d78594c521a5cccb69903e8d8e9a8f1cf3895f5f2bf9c06c100860b4bc745
+deleted: sha256:f6f377f7ae09e7dc5b0c5fdadd1ed73028c08dc304d1284feb3493a49d61a224
+deleted: sha256:dbd628966ba4f06fed0dc5dc0d22305bcd19b9365bfb1306eec8946d386ffc1d
+
+Total reclaimed space: 492.3MB
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Deleted Containers:
+8603f44ddf44978b6fc5ff5bab0de5b7fe6931bab90062ae8c6a9ea1b6fc40ff
+48a3b1701c54d3aae74796770937f1fc762d042f389b838a2aaef236b97ec864
+3ec46de13a344d0259ebe3fc9a6a3d84bf24a8f374eb48261653ce55127128b1
+
+Deleted Networks:
+funding_network
+
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Deleted Images:
+deleted: sha256:1bab464b76be21552c13a7856554b65bd6c149930b2a32d8e313c118c2f751d5
+deleted: sha256:1d3c1aa45b359d91d3e884e678c17afef72dff4572b4537e1bc791da370af9f5
+deleted: sha256:1f63017f8616f72563c53acccfc364d9096eeef7c34aac1d33eb81adf7d333ad
+deleted: sha256:6ee3c7ebb8f4e8ca1f1626305c3905bf7ec2060ccee64a20f7683d0d3a0508fa
+deleted: sha256:4a12b22393fa224e665f88495672dc0e4dde4b37eddba70929f886781beb8d06
+deleted: sha256:0451c300d1fc57e29c1fce76e7924760aa184cfe63ba551981e9aaeb86647d88
+deleted: sha256:25558e412693a87b7f8d2a66fceae2d92996bdfc42452d0991e954c12e57a1f5
+deleted: sha256:3d807373b0a5ec787d7169118f00c68ffb9789a38c4464bf6092fdb4b1718f35
+deleted: sha256:a94935eaaeec1d48a546f6b08625ab21cf7e368922a2f066fa0cb51967b66806
+deleted: sha256:dd2a4b36f2880ff6d6606ac944c67b43ae65da972cec72c9e4346531bccb2e9e
+
+Total reclaimed space: 184.2MB
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Deleted Images:
+deleted: sha256:93ba4c0db892ce76005b342b051a51e6100c5b64e0d77a202a0f99ac2b6e8501
+deleted: sha256:9fa6c91b327ab40b022ce74e9e844ab0a9516b8af8106fc283b1adeb13e93b0c
+deleted: sha256:5ec4cd34996f29b9e22e839b9ebc2d2c4ef340c5c43516e6fa5330d85db280cb
+deleted: sha256:2247344a9cc0e7b04aacd2bf9257d361a2c22735e8e3029115dbe833bc0b8da2
+
+Total reclaimed space: 72.6MB
+Total reclaimed space: 0B
+Deleted Images:
+deleted: sha256:4d9b54c3a4347a0cb95cff391e4ac6c44d619784999ced2ebd38c6510b693b4e
+deleted: sha256:f5f0c001090a329e4fa5d055c89c13ced8cc6bb0998de7f5557ab6abbc0232d7
+deleted: sha256:7f93c6f1296ef0ce7ef5309617baf0dd559ab10cfcfb8464aa4c5ebc4d1241ea
+deleted: sha256:de20463b7761b73af0edf85fdec4dc1e71d0288f1e1f55dbd2350626fc694742
+
+Total reclaimed space: 72.6MB
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Deleted Images:
+deleted: sha256:1c199f7b87a53008224866bf500c62f2b1dcda99885e9a520f8d152939c8e711
+deleted: sha256:5ec005c0e87c029ae83c1aab3e627de0578e322153fc65d37e826c75b91ebf4e
+deleted: sha256:adcedb6e0a986e0fe53e806deed5ee97b3c5e9a4231bf5e68cbbdbcff989f8e6
+deleted: sha256:902071874143aaa1749d9ea51d5c3945470600b73833a8962f6ec649024336e2
+
+Total reclaimed space: 72.6MB
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Deleted Containers:
+b4fed1d98c71c825841ff44cc8d70d5383eebf649e864b8aea355194c70403d5
+
+Deleted Images:
+deleted: sha256:2efb45b716366b30315e1fba87d4ff48b03d5a2a4f21e22b86e9a3d41eaa219a
+deleted: sha256:6a2943d894f29799b635774c45cc1623b27921cdcfb82c95f6aff157f1f4c935
+deleted: sha256:1f61666594cbcf82c6022cb2a92ded26c306f07f245147800629bf6afcd3243c
+deleted: sha256:1ab194d5afbd48866c38126991009cd378a1cc46cef6c339c8823b2e510dbe96
+deleted: sha256:2319d9d1fcb6af4ac64b37edf89de34744899a7e3cd1e01979b485afbbc47660
+deleted: sha256:2acb0853e8c0c9b161b61b06de3c52ef637b1acef56b74440437453b6039e33b
+deleted: sha256:df9ec75132c26a55b7b0c054a09e2f7c88ed6a1039c3e0c9f828bec63f13ddf7
+deleted: sha256:43e0b125ce0c7a47463d9c0e945e15f87a43f9e204bb08d544672b6b464eb802
+deleted: sha256:a9a64e4fde27d37952129f1925280e12e54362b403aab432605dd50e6cd37aab
+deleted: sha256:ebb263689b1ae695cf90a8057433705f2c5281148d641e1b5bde0195fae4de58
+
+Total reclaimed space: 198.9MB
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B
+Total reclaimed space: 0B

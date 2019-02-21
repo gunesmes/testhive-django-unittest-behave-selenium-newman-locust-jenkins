@@ -1,4 +1,4 @@
-Service test are prepeared in Postman, it can be open via [Postman Collection](https://www.getpostman.com/collections/ac3d0d9bbd8ae1bcfe5d) link. This link is also used for running the collection in Newman docker so other team member can be update it. There is also exported json for collection in the path, name: `mapillary.postman_collection.json`
+Service test are prepeared in Postman, it can be open via [Postman Collection](https://www.getpostman.com/collections/ac3d0d9bbd8ae1bcfe5d) link. This link is also used for running the collection in Newman docker so other team member can be update it. There is also exported json for collection in the path, name: `testhive.postman_collection.json`
 
 
 # Demo

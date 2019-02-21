@@ -146,10 +146,12 @@ tr:nth-child(even) {
       </tr>
         {% for user in users %}
       <tr>
-        <td>{{ user.username }}</td>
-        <td>{{ user.email }}</td>
-        <td>{{ user.birthday }}</td>
-        <td>{{ user.address }}</td>
+          <td>
+            <a href="#" onclick='getUser("{{ user.username }}")'> {{ user.username }} </a>
+          </td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.birthday }}</td>
+          <td>{{ user.address }}</td>
       </tr>
         {% endfor %}
     </table>
@@ -170,7 +172,6 @@ tr:nth-child(even) {
 
 	<label for="birthday"><b>Birtdate</b></label>
   	<input type="date" id="birthday" required>
-
 
     <label for="address"><b>Address</b></label>
     <input type="text" placeholder="Enter Address" id="address" required>

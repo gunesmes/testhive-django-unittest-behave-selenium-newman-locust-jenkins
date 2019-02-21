@@ -24,19 +24,19 @@ node(build-slave) {
       git 'https://github.com/gunesmes/code-run-test-automation-ci.git'
    }
    stage('Build') {
-       sh 'cd /var/jenkins_home/workspace/mapillary/app'
+       sh 'cd /var/jenkins_home/workspace/testhive/app'
        sh 'docker-compose up'
    }
    stage('Unit Test') {
-       sh 'cd /var/jenkins_home/workspace/mapillary/app/src/test'
+       sh 'cd /var/jenkins_home/workspace/testhive/app/src/test'
        sh 'bash run_unit_tests.sh'
    }
    stage('Service Test') {
-       sh 'cd /var/jenkins_home/workspace/mapillary/service-test' 
+       sh 'cd /var/jenkins_home/workspace/testhive/service-test' 
        sh 'bash service_tests.sh'
    }
    stage('UI Test') {
-       sh 'cd /var/jenkins_home/workspace/mapillary/web-automation'
+       sh 'cd /var/jenkins_home/workspace/testhive/web-automation'
        sh 'bash run_web_automation.sh'
    }
    stage('Test Deployment') {

@@ -6,7 +6,5 @@ RUN npm install newman-reporter-html
 RUN mkdir /newman
 WORKDIR /newman
 
-EXPOSE 9000
 
 ENTRYPOINT ["/node_modules/.bin/newman"]
-

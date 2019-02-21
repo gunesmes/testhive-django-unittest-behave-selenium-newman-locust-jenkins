@@ -79,15 +79,5 @@ def users(request):
 
 
 @require_http_methods('GET')
-def user(request):
-    username = request.GET.get("username")
-    user = []
-    if Users.objects.filter(username=username).exists():
-        user = Users.objects.filter(username=username)
-
-    return HttpResponse(serializers.serialize("json", user), content_type="application/json")
-
-
-@require_http_methods('GET')
 def ping(request):
     return HttpResponse("pong", content_type='text', status=200)

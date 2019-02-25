@@ -5,6 +5,7 @@ from selenium import webdriver
 from pages.register_page import RegisterPage
 from pages.main_page import MainPage
 import time
+import uuid
 
 
 @given(u'I open the web app')
@@ -50,6 +51,8 @@ def step_impl(context):
 
 @when(u'I enter "{username}" for user name')
 def step_impl(context, username):
+  if username == 'new-user':
+    username = uuid.uuid4().hex[3:] # should be less thean 30
   page.enter_username(username)
 
 

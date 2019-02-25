@@ -27,14 +27,14 @@ for feature in features/*.feature; do
 		"iphoneX" \
 		"pixel2"
 		do
-
-		sleep 1
 			
 		run_name=test_${feature:9}_on_${platform}
 		echo " - Running tests: $feature on $platform"
 
+		# Local run for develop/debug
 		# export HEADLESS=false && export BROWSER=$platform && behave $feature && exit 0 &
 		
+		# Run in Docker
 		docker run --network host --shm-size 256M --name ${run_name} -v $PWD:/project ${behave_image} bash -c "export HEADLESS=true && export BROWSER=${platform} && behave -f allure_behave.formatter:AllureFormatter -o report '${feature}' && exit 0 " &
 	done
 done

@@ -1,62 +1,32 @@
 ---------------------------
-Logs of docker-6baa02c27ff7
+Logs of docker-e581ae41303f
 
 
-
-
-
-
-
-
-
-Failing scenarios:
-  features/M002-register.feature:29  User creation feature -- @1.1 User data
-
-0 features passed, 1 failed, 0 skipped
-3 scenarios passed, 1 failed, 0 skipped
-30 steps passed, 1 failed, 0 skipped, 0 undefined
-Took 0m25.698s
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+2 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m1.579s
 ---------------------------
 ---------------------------
-Logs of docker-bb7bdd604a77
+Logs of docker-6c219de35b7d
 
 
-
-
-
-
-
-
-
-Failing scenarios:
-  features/M002-register.feature:29  User creation feature -- @1.1 User data
-
-0 features passed, 1 failed, 0 skipped
-3 scenarios passed, 1 failed, 0 skipped
-30 steps passed, 1 failed, 0 skipped, 0 undefined
-Took 0m26.178s
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+2 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m1.504s
 ---------------------------
 ---------------------------
-Logs of docker-fd7d17322c93
+Logs of docker-ed3091daf827
 
 
-
-
-
-
-
-
-
-Failing scenarios:
-  features/M002-register.feature:29  User creation feature -- @1.1 User data
-
-0 features passed, 1 failed, 0 skipped
-3 scenarios passed, 1 failed, 0 skipped
-30 steps passed, 1 failed, 0 skipped, 0 undefined
-Took 0m24.429s
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+2 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m1.320s
 ---------------------------
 ---------------------------
-Logs of docker-b20b463e8032
+Logs of docker-eefba05fb40a
 
 
 
@@ -68,41 +38,59 @@ Logs of docker-b20b463e8032
 1 feature passed, 0 failed, 0 skipped
 4 scenarios passed, 0 failed, 0 skipped
 31 steps passed, 0 failed, 0 skipped, 0 undefined
-Took 0m22.901s
+Took 0m20.498s
 ---------------------------
 ---------------------------
-Logs of docker-2d9a4879e0a3
+Logs of docker-4cd818d76f3b
+
+
+
+
+
+
+
+
+1 feature passed, 0 failed, 0 skipped
+4 scenarios passed, 0 failed, 0 skipped
+31 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m18.911s
+---------------------------
+---------------------------
+Logs of docker-cd2b03ddf8d3
 
 
 1 feature passed, 0 failed, 0 skipped
 1 scenario passed, 0 failed, 0 skipped
 2 steps passed, 0 failed, 0 skipped, 0 undefined
-Took 0m0.639s
+Took 0m1.515s
 ---------------------------
 ---------------------------
-Logs of docker-854ba758f1fc
+Logs of docker-a7f730cc9e0c
+
+
+
+
+
+
 
 
 1 feature passed, 0 failed, 0 skipped
-1 scenario passed, 0 failed, 0 skipped
-2 steps passed, 0 failed, 0 skipped, 0 undefined
-Took 0m0.659s
+4 scenarios passed, 0 failed, 0 skipped
+31 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m20.552s
 ---------------------------
 ---------------------------
-Logs of docker-ab54dca9ed3f
+Logs of docker-4c71e42392b9
+
+
+
+
+
+
 
 
 1 feature passed, 0 failed, 0 skipped
-1 scenario passed, 0 failed, 0 skipped
-2 steps passed, 0 failed, 0 skipped, 0 undefined
-Took 0m0.685s
----------------------------
----------------------------
-Logs of docker-179e0b4147d7
-
-
-1 feature passed, 0 failed, 0 skipped
-1 scenario passed, 0 failed, 0 skipped
-2 steps passed, 0 failed, 0 skipped, 0 undefined
-Took 0m0.672s
+4 scenarios passed, 0 failed, 0 skipped
+31 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m20.340s
 ---------------------------

@@ -9,7 +9,11 @@ import os
 
 def before_scenario(context, scenario):
 	options = Options()
-	#options.add_argument("--headless") 					# Runs Chrome in headless mode.
+	# Runs Chrome in headless mode on CI / Docker
+	# If you want to run non-headless for local development set it false explicitly
+	# export HEADLESS=false && behave ...
+	if os.environ["HEADLESS"] == 'true':
+		options.add_argument("--headless") 				
 	options.add_argument('--no-sandbox') 				# Bypass OS security model3
 	options.add_argument('--disable-infobars')
 	options.add_argument('--disable-extensions')

@@ -95,29 +95,3 @@ class TestUsersView(TestCase):
         self.assertEqual(len(response.json()), 2)
 
 
-class TestUserView(TestCase):
-    url = reverse('user')
-
-    def setUp(self):
-        self.client = Client()
-        Users.objects.create(
-            username = "user-1",
-            email = "user-test-1@gmail.com",
-            address = "test address",
-            birthday = "2000-09-03"
-        )
-        Users.objects.create(
-            username = "user-2",
-            email = "user-test-2@gmail.com",
-            address = "test address",
-            birthday = "2000-09-03"
-        )
-
-    def test_user_post_method_should_be_405(self):
-        response = self.client.post(self.url)
-        self.assertEqual(response.status_code, 405)
-
-    def test_get_a_user(self):
-        response = self.client.get(self.url, {"username": "user-1"})
-        self.assertEqual(len(response.json()), 1)
-

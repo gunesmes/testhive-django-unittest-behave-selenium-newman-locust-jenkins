@@ -1,5 +1,0 @@
-username,email,birthday,address,warning
-,test1@test.com,2000-11-20,Bredgatan 4 211 30 Malmö Sweden,Please fill out this field.
-test1,,2000-11-20,Bredgatan 4 211 30 Malmö Sweden,Please fill out this field.
-test1,test1@test.com,,Bredgatan 4 211 30 Malmö Sweden,Please fill out this field.
-test1,test1@test.com,2000-11-20,,Please fill out this field.

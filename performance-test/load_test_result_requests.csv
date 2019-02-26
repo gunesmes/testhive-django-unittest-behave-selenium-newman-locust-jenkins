@@ -1,0 +1,6 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"GET","/",33,0,22,30,14,76,5228,1.75
+"POST","/api/register",30,0,22,38,10,180,79,1.59
+"GET","/api/user?username=test17",272,0,25,34,14,182,5228,14.40
+"GET","/api/users",147,0,16,24,9,182,720,7.78
+"None","Total",482,0,22,31,9,182,3532,25.51

@@ -1,0 +1,3 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+5f87990da321        app_web             "bash -c 'python3 ma…"   29 hours ago        Up 29 hours         0.0.0.0:8001->8001/tcp   testhive-app
+43b51b50704c        postgres:latest     "docker-entrypoint.s…"   31 hours ago        Up 29 hours         0.0.0.0:5432->5432/tcp   testhive-postgres

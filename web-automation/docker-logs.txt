@@ -1,14 +1,40 @@
 ---------------------------
-Logs of docker-b172601be27e
+Logs of docker-27ce3a1c21d8
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m4.151s
+
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+5 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m2.011s
 ---------------------------
 ---------------------------
-Logs of docker-00ce14127023
+Logs of docker-08006c47954d
+
+
+
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+5 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m2.375s
+---------------------------
+---------------------------
+Logs of docker-824bccc6173c
+
+
+
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+5 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m2.363s
+---------------------------
+---------------------------
+Logs of docker-e73e709e9b39
+
+
 
 
 
@@ -17,51 +43,28 @@ Logs of docker-00ce14127023
 
 
 Failing scenarios:
-  features/M002-register.feature:29  User creation feature -- @1.1 User data
+  features/M002-register.feature:9  User creation form checks
 
-0 features passed, 1 failed, 1 skipped
-2 scenarios passed, 1 failed, 2 skipped
-26 steps passed, 1 failed, 6 skipped, 0 undefined
-Took 0m22.883s
+0 features passed, 1 failed, 0 skipped
+3 scenarios passed, 1 failed, 0 skipped
+30 steps passed, 1 failed, 0 skipped, 0 undefined
+Took 0m11.737s
 ---------------------------
 ---------------------------
-Logs of docker-7c3ba66de63b
-
-
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m26.425s
----------------------------
----------------------------
-Logs of docker-34ea82943aca
+Logs of docker-9f11a8e6ddca
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m28.605s
----------------------------
----------------------------
-Logs of docker-e6b6422dbd48
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m29.047s
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+5 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m2.690s
 ---------------------------
 ---------------------------
-Logs of docker-38be7c0cfbbb
+Logs of docker-9cf9ac1e1f16
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m3.584s
----------------------------
----------------------------
-Logs of docker-64caf2280d9b
 
 
 
@@ -70,28 +73,17 @@ Logs of docker-64caf2280d9b
 
 
 Failing scenarios:
-  features/M002-register.feature:29  User creation feature -- @1.1 User data
+  features/M002-register.feature:9  User creation form checks
 
-0 features passed, 1 failed, 1 skipped
-2 scenarios passed, 1 failed, 2 skipped
-26 steps passed, 1 failed, 6 skipped, 0 undefined
-Took 0m22.620s
+0 features passed, 1 failed, 0 skipped
+3 scenarios passed, 1 failed, 0 skipped
+30 steps passed, 1 failed, 0 skipped, 0 undefined
+Took 0m11.685s
 ---------------------------
 ---------------------------
-Logs of docker-dd4eaf8865e2
+Logs of docker-891c10cba946
 
 
-
-
-
-
-1 feature passed, 0 failed, 1 skipped
-3 scenarios passed, 0 failed, 2 skipped
-27 steps passed, 0 failed, 6 skipped, 0 undefined
-Took 0m22.407s
----------------------------
----------------------------
-Logs of docker-306e903d3e24
 
 
 
@@ -100,37 +92,29 @@ Logs of docker-306e903d3e24
 
 
 Failing scenarios:
-  features/M002-register.feature:29  User creation feature -- @1.1 User data
+  features/M002-register.feature:9  User creation form checks
 
-0 features passed, 1 failed, 1 skipped
-2 scenarios passed, 1 failed, 2 skipped
-26 steps passed, 1 failed, 6 skipped, 0 undefined
-Took 0m22.156s
+0 features passed, 1 failed, 0 skipped
+3 scenarios passed, 1 failed, 0 skipped
+30 steps passed, 1 failed, 0 skipped, 0 undefined
+Took 0m13.676s
 ---------------------------
 ---------------------------
-Logs of docker-bf6ee79fa422
+Logs of docker-e43d6b908367
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m4.000s
----------------------------
----------------------------
-Logs of docker-1f4f8925e6bc
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-2 steps passed, 0 failed, 31 skipped, 0 undefined
-Took 0m3.890s
----------------------------
----------------------------
-Logs of docker-1876a578c8dc
 
 
-1 feature passed, 0 failed, 1 skipped
-1 scenario passed, 0 failed, 4 skipped
-4 steps passed, 0 failed, 29 skipped, 0 undefined
-Took 0m27.321s
+
+
+
+Failing scenarios:
+  features/M002-register.feature:9  User creation form checks
+
+0 features passed, 1 failed, 0 skipped
+3 scenarios passed, 1 failed, 0 skipped
+30 steps passed, 1 failed, 0 skipped, 0 undefined
+Took 0m12.147s
 ---------------------------

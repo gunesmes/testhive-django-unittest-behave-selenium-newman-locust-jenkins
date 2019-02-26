@@ -26,6 +26,7 @@ Feature: Creating users
 
     Examples: User data
       | username         | email             | birthday       | address                           | message                                     |
-      | "testusername30" | "test30@test.com" | "03.03.2000"   | "Bredgatan 4 211 30 Malmö Sweden" | "User is recorded with given informations." |
       | "testusername1"  | "test1@test.com"  | "03.04.2010"   | "Bredgatan 4 211 30 Malmö Sweden" | "Users with this Username already exists."  |
       | "testusername33" | "test1@test.com"  | "10.10.200002" | "Bredgatan 4 211 30 Malmö Sweden" | "Enter a valid date."                       |
+      | "new-user"       | "test30@test.com" | "03.03.2000"   | "Bredgatan 4 211 30 Malmö Sweden" | "User is recorded with given informations." |
+      

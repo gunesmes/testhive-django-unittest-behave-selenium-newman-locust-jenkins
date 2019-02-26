@@ -1,5 +1,5 @@
 from django import forms
-from .models import Users
+from src.models import Users
 
 
 class RegisterForm(forms.ModelForm):

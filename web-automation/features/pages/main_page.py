@@ -1,7 +1,6 @@
 from .base_page import BasePage
 from selenium.webdriver.common.by import By
 from support.users import get_user
-import time
 
 
 # Page opjects are written in this module.

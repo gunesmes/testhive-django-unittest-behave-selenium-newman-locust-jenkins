@@ -131,12 +131,25 @@ STATICFILES_DIRS = [
 ]
 
 
+try:
+    from settings import *
+except ImportError:
+    pass
+
 # Use nose to run all tests
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
-# Tell nose to measure coverage on the 'foo' and 'bar' apps
 NOSE_ARGS = [
+    '--testmatch=^test',
+    '--with-xunit',
+    '--xunit-file=xmlrunner/nosetests.xml',
     '--with-coverage',
-    '--cover-package=src/forms.py, src/views.py, app/models.py',
-    '--with-xunit'
+    '--cover-xml',
+    '--cover-package=src', 
+    '--cover-xml-file=xmlrunner/coverage.xml'
 ]
+
+
+# Create directory for xml files
+if not os.path.exists("xmlrunner"):
+    os.makedirs("xmlrunner")

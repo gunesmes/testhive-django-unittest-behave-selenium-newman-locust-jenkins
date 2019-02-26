@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7b0d7f1-8859-4f81-b163-6980613f0480" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/performance-test/csv.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/example_distribution.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/example_requests.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/load_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/load_test_result_distribution.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/load_test_result_requests.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/total_result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/total_result.csw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance-test/total_result2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-test/docker-list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-test/docker-logs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-test/newman/newman-run-report-2019-02-26-06-32-36-543-0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-test/nohup.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/app/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/nohup.out" beforeDir="false" afterPath="$PROJECT_DIR$/app/nohup.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/nosetests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/nosetests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/tests/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/performance-test/eval_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance-test/eval_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/performance-test/web_performance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/newmann" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/run_service_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/run_service_test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/docker-list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/docker-list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/docker-logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/docker-logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/features/M002-register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/features/M002-register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/features/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/features/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/features/steps/map_users_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/features/steps/map_users_create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/nohup.out" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/nohup.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/1cbca0cf-a2ff-4431-9b4b-24784ce67733-attachment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/1cbca0cf-a2ff-4431-9b4b-24784ce67733-attachment.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/34789d6a-d980-4465-8933-87092f61b66e-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/34789d6a-d980-4465-8933-87092f61b66e-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/36a396a4-ff56-4e45-99a8-97caff4464c0-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/36a396a4-ff56-4e45-99a8-97caff4464c0-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/4d418876-46d0-4eb7-ade5-b5eeffee9030-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/4d418876-46d0-4eb7-ade5-b5eeffee9030-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/986fa13d-20db-48cc-aa16-3f303d7caf76-attachment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/986fa13d-20db-48cc-aa16-3f303d7caf76-attachment.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/99ba57cb-dfd3-4f95-a89b-9460a1bcc7cc-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/99ba57cb-dfd3-4f95-a89b-9460a1bcc7cc-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/a445577a-474b-4f6b-a76c-3a9604c1291a-attachment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/a445577a-474b-4f6b-a76c-3a9604c1291a-attachment.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/report/cf86881b-f57a-4fa3-b1c1-065b517b7607-attachment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/report/cf86881b-f57a-4fa3-b1c1-065b517b7607-attachment.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-automation/run_web_automation.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/run_web_automation.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/blog-sample-service.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/blog-sample-service.postman_collection.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4506224">
+    <splitter split-orientation="horizontal" split-proportion="0.773444">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="eval_result.py" pinned="false" current-in-tab="false">
@@ -65,6 +25,24 @@
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="run_service_test.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-test/run_service_test.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="795">
+                  <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
                 </state>
               </provider>
             </entry>
@@ -81,25 +59,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="map_users_create.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="map_users_create.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-automation/features/steps/map_users_create.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="665">
-                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+                <state relative-caret-position="515">
+                  <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test_models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/tests/test_models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" selection-start-line="18" selection-end-line="18" />
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -117,20 +83,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web-automation/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
                   <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nohup.out" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/nohup.out">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="166" selection-start-line="166" selection-end-line="166" />
                 </state>
               </provider>
             </entry>
@@ -285,6 +242,7 @@
       <find>..models</find>
       <find>getUser(&quot;testusername1</find>
       <find>uuid</find>
+      <find>idea</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -302,10 +260,8 @@
         <option value="$PROJECT_DIR$/app/manage.py" />
         <option value="$PROJECT_DIR$/app/run_unit_tests.sh" />
         <option value="$PROJECT_DIR$/app/src/tests/test_views.py" />
-        <option value="$PROJECT_DIR$/service-test/run_service_test.sh" />
         <option value="$PROJECT_DIR$/web-automation/features/environment.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/run_unit_tests_with_coverage.sh" />
         <option value="$PROJECT_DIR$/app/app/settings.py" />
         <option value="$PROJECT_DIR$/app/src/views.py" />
@@ -323,6 +279,8 @@
         <option value="$PROJECT_DIR$/web-automation/.gitignore" />
         <option value="$PROJECT_DIR$/web-automation/features/pages/main_page.py" />
         <option value="$PROJECT_DIR$/web-automation/features/steps/map_users_create.py" />
+        <option value="$PROJECT_DIR$/service-test/run_service_test.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -378,6 +336,11 @@
               <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="testhive-sample-app" type="462c0819:PsiDirectoryNode" />
               <item name="performance-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testhive-sample-app" type="462c0819:PsiDirectoryNode" />
+              <item name="service-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
@@ -670,20 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-test/run_service_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -810,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-automation/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/performance-test/eval_result.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -889,11 +831,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/features/steps/map_users_create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="515">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-test/run_service_test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-automation/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>

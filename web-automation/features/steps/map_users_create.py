@@ -1,10 +1,7 @@
 from behave import *
 
-import unittest
-from selenium import webdriver
 from pages.register_page import RegisterPage
 from pages.main_page import MainPage
-import time
 
 
 @given(u'I open the web app')
@@ -80,3 +77,11 @@ def step_impl(context, message):
 @when(u'I should see created users')
 def step_impl(context):
     page.check_users(["testusername1", "testusername2"])
+
+@when(u'I click "{username}" on users page')
+def step_impl(context, username):
+    page.click_user(username)
+
+@then(u'I should see the detail of "{username}"')
+def step_impl(context, username):
+    page.check_user_info(username)

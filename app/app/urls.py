@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin', admin.site.urls),
     url(r'^api/register', app_views.register, name="register"),
     url(r'^api/users$', app_views.users, name="users"),
+    url(r'^api/user$', app_views.user, name="user"),
     url(r'^api/ping', app_views.ping),
     url(r'^', app_views.index),
 ]

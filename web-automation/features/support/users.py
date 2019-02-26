@@ -1,18 +1,13 @@
-from operator import itemgetter
 
 # we can store test data in this module like users
 
 users = [
-	{"name": "invalid_user", "email": "invalidUser@test.com", "password": "qwert1235"},
-	{"name": "valid_user", "email": "validUser@yahoo.com", "password": "ValidPassword"},
-	{"name": "Staff2", "email": "staff@test.com", "password": "qwert1235"},
-	{"name": "Admin0", "email": "admin@test.com", "password": "qwert1234"},
-	{"name": "Admin1", "email": "admin@test.com", "password": "qwert1234"},
-	{"name": "Admin2", "email": "admin@test.com", "password": "qwert1234"},
+    {"username": "testusername1", "email": "test1@test.com", "birthday": "2001-09-03", "address": "Turkey İstanbul Bakırköy 344252"},
+	{"username": "testusername2", "email": "test2@test.com", "birthday": "2000-09-03", "address": "Studio 103 Wellfield Road Roath Cardiff"},
 ]
 
 def get_user(name):
-	try:
-		return (user for user in users if user["name"] == name).next()
-	except:
-		print("\n     User %s is not defined, enter a valid user.\n" %name)
+    try:
+        return (user for user in users if user["username"] == name).__next__()
+    except Exception as e:
+        print(e)

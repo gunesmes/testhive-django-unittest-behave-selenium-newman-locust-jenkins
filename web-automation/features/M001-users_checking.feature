@@ -6,3 +6,8 @@ Feature: Checking users
 	  @user_check @smoke
 	  Scenario: Users page feature     
 	    When I should see created users
+
+	  @user_check
+	  Scenario: Users page feature
+	  	When I click "testusername1" on users page
+	  	Then I should see the detail of "testusername1"

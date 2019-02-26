@@ -77,3 +77,24 @@ function RegisterFormSubmit() {
     isRegisterProcessing = true;
 }
 
+function getUser(username) {
+    var modal = document.getElementById('myModal');
+
+    $.ajax({
+        "type": "GET",
+        "dataType": "json",
+        "url": "api/user",
+        "data": {
+            "username": username
+        },
+        "success": function (result) {
+            console.log(result[0]["fields"])
+            user_info = "";
+            for (var key in result[0]["fields"]) {
+                user_info += "<p>" + result[0]["fields"][key] + "</p>";
+            }
+            $(".modal-content > p").html(user_info)
+            modal.style.display = "block";
+        }
+    });
+}

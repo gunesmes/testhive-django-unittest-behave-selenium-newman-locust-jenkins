@@ -1,2 +1,7 @@
 *.pyc
 .DS_Store
+web-automation/report/*
+service-test/newman/*
+app/xmlrunner/*
+generatedJUnitFiles/*
+.idea/*

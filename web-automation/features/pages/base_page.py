@@ -1,8 +1,6 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.chrome.options import Options
 import time
+
 
 # this Base class is serving basic attributes for every single page inherited from Page class
 class BasePage(object):

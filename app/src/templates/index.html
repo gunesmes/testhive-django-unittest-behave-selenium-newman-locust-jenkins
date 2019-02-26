@@ -124,6 +124,29 @@ tr:nth-child(even) {
 .warning {
     color: #fb1313;
 }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 </style>
 </head>
 <body>
@@ -146,8 +169,8 @@ tr:nth-child(even) {
       </tr>
         {% for user in users %}
       <tr>
-          <td>
-            <a> {{ user.username }} </a>
+          <td id="{{ user.username }}">
+            <a href="#" onclick='getUser("{{ user.username }}")' > {{ user.username }} </a>
           </td>
           <td>{{ user.email }}</td>
           <td>{{ user.birthday }}</td>
@@ -182,6 +205,16 @@ tr:nth-child(even) {
 </div>
 
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+      <p></p>
+  </div>
+</div>
+
+
 <script>
 	function registerAct() {
     	document.getElementById("registerForm").removeAttribute("hidden");
@@ -197,6 +230,7 @@ tr:nth-child(even) {
     	document.getElementById("register-nav").classList.remove('active');
     	document.getElementById("users-nav").classList.add('active');
     }
+
 </script>
 
 </body>

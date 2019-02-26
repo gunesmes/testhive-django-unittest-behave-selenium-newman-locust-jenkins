@@ -51,3 +51,7 @@ docs/_build/
 
 #ide
 .idea/workspace.xml
+
+# report
+service-test/newman/*
+web-automation/report/*

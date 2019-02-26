@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="blog-sample-service" tests="9" time="0.448">
+  <testsuite name="ping" id="acdc1239-5da5-4eed-9d28-b9ffd734edb5" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 200" time="0.022"/>
+    <testcase name="Body matches string to 'pong'" time="0.022"/>
+  </testsuite>
+  <testsuite name="get-users" id="9c1a6a4c-b289-4445-bfbf-b1dc9159f7e0" tests="4" failures="0" errors="0" time="0.016">
+    <testcase name="Status code is 200" time="0.016"/>
+    <testcase name="Number of users should be equal to 2" time="0.016"/>
+    <testcase name="First user's information should be correct" time="0.016"/>
+    <testcase name="Second user's information should be correct" time="0.016"/>
+  </testsuite>
+  <testsuite name="register-user-success" id="9cfd684c-4ff9-47a1-b20e-a21d66297bd3" tests="3" failures="0" errors="0" time="0.069">
+    <testcase name="Status code should be 201" time="0.069"/>
+    <testcase name="Result should be true" time="0.069"/>
+    <testcase name="Message should be correct" time="0.069"/>
+  </testsuite>
+  <testsuite name="register-user-fail-already-member" id="087125f9-0e5e-4248-9553-098537815672" tests="3" failures="0" errors="0" time="0.063">
+    <testcase name="Status code should be 202" time="0.063"/>
+    <testcase name="Result should be true" time="0.063"/>
+    <testcase name="Message should be correct" time="0.063"/>
+  </testsuite>
+  <testsuite name="register-user-fail-empty-username" id="eae4ceea-eeda-4283-88fb-b9836d1299ac" tests="3" failures="0" errors="0" time="0.055">
+    <testcase name="Status code should be 202" time="0.055"/>
+    <testcase name="Result should be true" time="0.055"/>
+    <testcase name="Message should be correct" time="0.055"/>
+  </testsuite>
+  <testsuite name="register-user-fail-empty-email" id="e281f26a-d055-484f-8d30-1fe92bc0b609" tests="3" failures="0" errors="0" time="0.048">
+    <testcase name="Status code should be 202" time="0.048"/>
+    <testcase name="Result should be true" time="0.048"/>
+    <testcase name="Message should be correct" time="0.048"/>
+  </testsuite>
+  <testsuite name="register-user-fail-empty-birthday" id="b26a743f-d653-42bb-94ba-50b8ce6bc2cf" tests="3" failures="0" errors="0" time="0.053">
+    <testcase name="Status code should be 202" time="0.053"/>
+    <testcase name="Result should be true" time="0.053"/>
+    <testcase name="Message should be correct" time="0.053"/>
+  </testsuite>
+  <testsuite name="register-user-fail-empty-address" id="fd0fc44d-ab73-4fb6-9385-a947a8a8b991" tests="3" failures="0" errors="0" time="0.056">
+    <testcase name="Status code should be 202" time="0.056"/>
+    <testcase name="Result should be true" time="0.056"/>
+    <testcase name="Message should be correct" time="0.056"/>
+  </testsuite>
+  <testsuite name="register-user-fail-worng-format-birthday" id="fa4b6a58-22a0-477c-aea6-581334bde084" tests="3" failures="0" errors="0" time="0.066">
+    <testcase name="Status code should be 202" time="0.066"/>
+    <testcase name="Result should be true" time="0.066"/>
+    <testcase name="Message should be correct" time="0.066"/>
+  </testsuite>
+</testsuites>

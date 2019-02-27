@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
 
 # C extensions
 *.so
@@ -50,7 +51,7 @@ coverage.xml
 docs/_build/
 
 #ide
-.idea/workspace.xml
+.idea/*
 
 # report
 service-test/newman/*

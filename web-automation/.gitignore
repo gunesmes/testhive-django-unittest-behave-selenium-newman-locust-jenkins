@@ -5,3 +5,5 @@ service-test/newman/*
 app/xmlrunner/*
 generatedJUnitFiles/*
 .idea/*
+nosetests.xml
+nohub.out

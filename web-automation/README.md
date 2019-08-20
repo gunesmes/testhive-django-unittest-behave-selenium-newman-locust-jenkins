@@ -147,4 +147,6 @@ Took 0m23.836s
  - 0 minutes and 34 seconds elapsed.
 ``` 
 
-
+# Reporting with Allure Report
+Allure report plug-in gives very good graphics and explanation. Integration is very easy check the related Jenkins image.
+![Allure Report](screencapture-localhost-8080-job-UITest-allure-2019-08-20-14_51_36.png) 

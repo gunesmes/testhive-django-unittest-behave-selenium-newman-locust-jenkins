@@ -2,77 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7b0d7f1-8859-4f81-b163-6980613f0480" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/performance-test/screencapture-localhost-8080-job-LoadTest-configure-2019-08-20-14_46_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-test/screencapture-localhost-8080-job-IntegrationTest-configure-2019-08-20-14_49_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-automation/screencapture-localhost-8080-job-UITest-allure-2019-08-20-14_51_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-automation/screencapture-localhost-8080-job-UITest-configure-2019-08-20-14_52_19.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/performance-test/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/performance-test/eval_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance-test/eval_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/performance-test/web_performance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins].htm" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins].htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/accept.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/accept.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/advanced.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/advanced.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/animation-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/animation-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/apply.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/apply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/autocomplete-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/autocomplete-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/behavior.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/bind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/breadcrumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/breadcrumbs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/breadcrumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/breadcrumbs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/button-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/button-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/codemirror.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/codemirror.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/config-scrollspy.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/config-scrollspy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/config-scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/config-scrollspy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/confirm.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/confirm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/connection-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/connection-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/container(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/container(1).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/container-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/container-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/container.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/datasource-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/datasource-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/dom-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/dom-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/dragdrop-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/dragdrop-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/dragdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/dragdrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/element-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/element-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/event-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/event-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/hetero-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/hetero-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/hudson-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/hudson-behavior.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/jquery2.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/jquery2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/layout-common.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/layout-common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/menu-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/menu-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/nestedHelp.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/nestedHelp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/new-credential.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/new-credential.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/none.gif" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/none.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/notepad.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/notepad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/page-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/page-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/pos.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/pos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/prototype.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/python.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/python.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/radioBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/radioBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/repeatable.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/repeatable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/resources.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/resources.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/responsive-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/responsive-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/saved_resource.html" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/saved_resource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/section_.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/section_.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/section_.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/section_.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/select(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/select(1).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/shell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/sortable.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/sortable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/spinner.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/storage-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/storage-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/system-store.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/system-store.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/textarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/textarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/textarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/title.png" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/warning.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-test/LoadTest Config [Jenkins]_files/yahoo-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/yahoo-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins].htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/accept.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/advanced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/animation-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/apply.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/autocomplete-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/behavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/breadcrumbs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/breadcrumbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/button-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/config-scrollspy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/config-scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/confirm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/connection-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/container(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/container-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/datasource-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/dom-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/dragdrop-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/dragdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/element-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/event-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/headshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/hetero-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/hudson-behavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/jquery2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/layout-common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/menu-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/nestedHelp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/new-credential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/none.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/notepad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/page-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/pos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/radioBlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/repeatable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/resources.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/resources.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/responsive-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/section_.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/section_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/select(1).js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/storage-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/system-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/textarea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins]_files/yahoo-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-automation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web-automation/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,14 +87,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49130073">
+    <splitter split-orientation="horizontal" split-proportion="0.13700788">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="run_service_test.sh" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/service-test/run_service_test.sh">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
-                  <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+                  <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -97,28 +102,24 @@
           <file leaf-file-name="eval_result.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/performance-test/eval_result.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-375">
-                  <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
                   <folding>
-                    <element signature="e#0#14#0" expanded="true" />
+                    <element signature="e#0#9#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test_forms.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/tests/test_forms.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="8" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="8" />
-                </state>
-              </provider>
+          <file leaf-file-name="load_test_result_distribution.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/performance-test/load_test_result_distribution.csv">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="test_models.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/tests/test_models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
+                <state relative-caret-position="255">
                   <caret line="18" selection-start-line="18" selection-end-line="18" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
@@ -130,7 +131,7 @@
           <file leaf-file-name="environment.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-automation/features/environment.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
+                <state relative-caret-position="240">
                   <caret line="22" column="52" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="52" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
@@ -142,7 +143,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
+                <state relative-caret-position="3030">
                   <caret line="202" column="61" selection-start-line="202" selection-start-column="61" selection-end-line="202" selection-end-column="61" />
                 </state>
               </provider>
@@ -151,7 +152,7 @@
           <file leaf-file-name="map_users_create.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-automation/features/steps/map_users_create.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
+                <state relative-caret-position="1065">
                   <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
@@ -163,7 +164,7 @@
           <file leaf-file-name="main_page.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-automation/features/pages/main_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
+                <state relative-caret-position="390">
                   <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
                 </state>
               </provider>
@@ -172,7 +173,7 @@
           <file leaf-file-name="register_page.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-automation/features/pages/register_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
+                <state relative-caret-position="570">
                   <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#43#0" expanded="true" />
@@ -185,23 +186,68 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/views.py">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="426">
-                  <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="448">
+                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="load_test.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/performance-test/load_test.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web-automation/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="707">
+                    <caret line="150" column="120" selection-start-line="150" selection-start-column="120" selection-end-line="150" selection-end-column="120" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="run_unit_tests_with_coverage.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/run_unit_tests_with_coverage.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="59" selection-start-line="3" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="run_unit_tests.sh" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/run_unit_tests.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-test/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor />
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/performance-test/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="285">
+                    <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -224,58 +270,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test_views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/tests/test_views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
-                  <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#0#43#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="M002-register.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web-automation/features/M002-register.feature">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="23" selection-start-column="23" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/docker-compose.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="16" column="15" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="run_web_automation.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web-automation/run_web_automation.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-automation/features/pages/base_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
+                <state relative-caret-position="540">
                   <caret line="37" selection-start-line="37" selection-end-line="37" />
                   <folding>
                     <element signature="e#0#64#0" expanded="true" />
@@ -330,13 +328,15 @@
         <option value="$PROJECT_DIR$/web-automation/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/service-test/run_service_test.sh" />
+        <option value="$PROJECT_DIR$/performance-test/README.md" />
+        <option value="$PROJECT_DIR$/performance-test/eval_result.py" />
+        <option value="$PROJECT_DIR$/web-automation/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -350,16 +350,6 @@
             <path>
               <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="testhive-sample-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testhive-sample-app" type="462c0819:PsiDirectoryNode" />
-              <item name="performance-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testhive-sample-app" type="462c0819:PsiDirectoryNode" />
-              <item name="service-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testhive-sample-app" type="b2602c69:ProjectViewProjectNode" />
@@ -387,6 +377,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-automation" />
+      <recent name="$PROJECT_DIR$/service-test" />
+      <recent name="$PROJECT_DIR$/performance-test" />
+      <recent name="$PROJECT_DIR$/service-test/jenkins" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,37 +440,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16180556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11805555" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32900944" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11388889" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -486,48 +471,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/tests/test_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/static/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -583,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/run_unit_tests.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -606,21 +542,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="135">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/run_web_automation.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="465">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/features/environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="240">
           <caret line="22" column="52" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="52" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -630,7 +566,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="240">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
@@ -649,13 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/run_unit_tests_with_coverage.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="59" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -692,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="1005">
           <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -702,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="1230">
           <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -717,19 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/performance-test/eval_result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/features/pages/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="540">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
@@ -739,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/features/pages/register_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="570">
           <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -763,7 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/features/steps/map_users_create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
+        <state relative-caret-position="1065">
           <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -780,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/tests/test_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="255">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -790,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="3030">
           <caret line="202" column="61" selection-start-line="202" selection-start-column="61" selection-end-line="202" selection-end-column="61" />
         </state>
       </provider>
@@ -811,32 +730,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="448">
           <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-automation/features/pages/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="390">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/performance-test/web_performance.py">
+    <entry file="file://$PROJECT_DIR$/performance-test/web_performance.py" />
+    <entry file="file://$PROJECT_DIR$/service-test/run_service_test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance-test/load_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/run_unit_tests_with_coverage.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="59" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/run_unit_tests.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-test/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance-test/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance-test/eval_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
-            <element signature="e#49#93#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-test/run_service_test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/service-test/jenkins/LoadTest Config [Jenkins].htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance-test/load_test_result_distribution.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-automation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="707">
+            <caret line="150" column="120" selection-start-line="150" selection-start-column="120" selection-end-line="150" selection-end-column="120" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

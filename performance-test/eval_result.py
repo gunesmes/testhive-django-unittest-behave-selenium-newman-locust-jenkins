@@ -1,4 +1,5 @@
-import re, sys
+import re
+import sys
 import os
 
 MIN_RESPONSE_TIME = int(os.environ['min_response_time'])
@@ -28,12 +29,12 @@ total_num_requests = sum(map(int, num_requests))
 
 fw = open("total_result1.csv", "w")
 fw.write("Median,AVG,MIN,MAX\n")
-fw.write("%s,%s,%s,%s\n" %(total_med_response_time, total_avg_response_time, total_min_response_time, total_max_response_time))
+fw.write("%s,%s,%s,%s\n" % (total_med_response_time, total_avg_response_time, total_min_response_time, total_max_response_time))
 fw.close()
 
 fw = open("total_result2.csv", "w")
 fw.write("Total,Fails\n")
-fw.write("%s,%s\n" %(total_num_requests, total_num_failures))
+fw.write("%s,%s\n" % (total_num_requests, total_num_failures))
 fw.close()
 
 

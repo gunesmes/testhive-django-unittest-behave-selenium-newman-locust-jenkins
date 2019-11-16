@@ -138,5 +138,6 @@ TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 NOSE_ARGS = [
     '--with-coverage',
     '--cover-package=src/forms.py, src/views.py, app/models.py',
-    '--with-xunit'
+    '--with-xunit',
+    '--xunit-file=xmlrunner/nosetests.xml'
 ]

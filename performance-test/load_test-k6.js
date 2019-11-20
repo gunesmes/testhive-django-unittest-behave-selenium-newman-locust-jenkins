@@ -13,19 +13,19 @@ export let TrendRTTPost = new Trend("RTTPost");
 export let options = {
     thresholds: {
     "RTTGet": [
-      "p(95)<350",
-      "p(90)<300",
-      "max<400",
-      "avg<200",
-      "med<200",
+      "p(95)<800",
+      "p(90)<700",
+      "max<900",
+      "avg<600",
+      "med<600",
       "min<100",
     ],
     "RTTPost": [
-      "p(95)<400",
-      "p(90)<350",
-      "max<500",
-      "avg<250",
-      "med<250",
+      "p(95)<800",
+      "p(90)<700",
+      "max<900",
+      "avg<600",
+      "med<600",
       "min<200",
     ]
   }

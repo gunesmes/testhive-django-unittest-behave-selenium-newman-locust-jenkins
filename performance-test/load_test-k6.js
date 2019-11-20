@@ -21,7 +21,7 @@ export let options = {
       "min<100",
     ],
     "RTTPost": [
-      "p(95)<800",
+      "p(95)<850",
       "p(90)<700",
       "max<900",
       "avg<600",

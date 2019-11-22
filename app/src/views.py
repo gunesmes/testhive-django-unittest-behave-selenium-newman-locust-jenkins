@@ -84,7 +84,7 @@ def user(request):
     username = request.GET.get("username")
     user = []
     if Users.objects.filter(username=username).exists():
-        sleep(1000)
+        sleep(1500)
         user = Users.objects.filter(username=username)
 
     return HttpResponse(serializers.serialize("json", user), content_type="application/json")

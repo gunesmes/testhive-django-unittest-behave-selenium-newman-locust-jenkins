@@ -6,7 +6,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from .forms import RegisterForm
 from .models import Users
-from time import sleep
 
 
 def index(request):
@@ -84,7 +83,6 @@ def user(request):
     username = request.GET.get("username")
     user = []
     if Users.objects.filter(username=username).exists():
-        sleep(1)
         user = Users.objects.filter(username=username)
 
     return HttpResponse(serializers.serialize("json", user), content_type="application/json")

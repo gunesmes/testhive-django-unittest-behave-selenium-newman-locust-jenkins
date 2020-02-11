@@ -24,15 +24,19 @@ In Dockerfile there is a step at the end of the process to install required libr
 Since the K6 has embed treshold feature there is no need to evaluate the result. For load test, the number of the virtual user (vus) should be stay constant, but for the spike test, the number of the virtual user should be increased suddenly and should be decreased suddenly.
 
 ## Run Load Test with K6
-		docker run --network host -i loadimpact/k6 run - \
-			--vus 10 \
-			--duration 30s \
-			--out influxdb=http://localhost:8086/testrisk \
-			<load_test-k6.js
+```bash
+docker run --network host -i loadimpact/k6 run - \
+	--vus 10 \
+	--duration 30s \
+	--out influxdb=http://localhost:8086/testrisk \
+	<load_test-k6.js
+```
 
 ## Run Spike Test with K6
-		docker run --network host -i loadimpact/k6 run - \
-			--vus 10 \
-			--stage 5s:10,5m:20,10s:5 \
-			--out influxdb=http://localhost:8086/testrisk \
-			<load_test-k6.js
+```bash
+docker run --network host -i loadimpact/k6 run - \
+	--vus 10 \
+	--stage 5s:10,5m:20,10s:5 \
+	--out influxdb=http://localhost:8086/testrisk \
+	<load_test-k6.js
+```

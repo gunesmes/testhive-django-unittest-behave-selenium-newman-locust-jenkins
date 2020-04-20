@@ -14,15 +14,21 @@ class UserBehaviour(TaskSet):
 
     @task(1)
     def test_ping(self):
-        self.client.get('/')
+        self.client.get('/',
+                       name="index"
+                       )
 
     @task(5)
     def test_get_users(self):
-        self.client.get('/api/users')
+        self.client.get('/api/users',
+                       name="api/users"
+                       )
 
     @task(5)
     def test_get_user(self):
-        self.client.get('/api/user?username=testusername1')
+        self.client.get('/api/user?username=testusername1',
+                       name="api/user"
+                       )
 
     @task(1)
     def test_register(self):
@@ -33,7 +39,9 @@ class UserBehaviour(TaskSet):
                                'email': email,
                                'birthday': '2001-09-03',
                                'address': 'test address for load test, Istanbul/Turkey',
-                               'client': 'app'})
+                               'client': 'app'},
+                         name="api/register"
+                        )
 
 
 class User(HttpLocust):

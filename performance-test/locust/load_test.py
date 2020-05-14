@@ -15,20 +15,20 @@ class UserBehaviour(TaskSet):
     @task(1)
     def test_ping(self):
         self.client.get('/',
-                       name="index"
-                       )
+                        name="index"
+                        )
 
     @task(5)
     def test_get_users(self):
         self.client.get('/api/users',
-                       name="api/users"
-                       )
+                        name="api/users"
+                        )
 
     @task(5)
     def test_get_user(self):
         self.client.get('/api/user?username=testusername1',
-                       name="api/user"
-                       )
+                        name="api/user"
+                        )
 
     @task(1)
     def test_register(self):
@@ -41,7 +41,7 @@ class UserBehaviour(TaskSet):
                                'address': 'test address for load test, Istanbul/Turkey',
                                'client': 'app'},
                          name="api/register"
-                        )
+                         )
 
 
 class User(HttpLocust):
@@ -52,4 +52,3 @@ class User(HttpLocust):
     # we can assume that they wait 0.3 to 0.5 seconds on a page
     min_wait = 300
     max_wait = 500
-

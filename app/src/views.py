@@ -16,7 +16,9 @@ def index(request):
 @csrf_exempt
 # just sample app so ignore csrf
 def register(request):
+    print(request.POST)
     if request.POST.get('client') != 'app':
+        print("WEBBB")
         form = RegisterForm(request.POST)
         if form.is_valid():
             user = form.save(commit=False)
@@ -41,6 +43,7 @@ def register(request):
             }
             return HttpResponse(json.dumps(data), content_type='application/json', status=202)
     else:
+        print("APPPP")
         try:
             username = request.POST.get('username')
             email = request.POST.get('email')
@@ -69,8 +72,6 @@ def register(request):
             }
             return HttpResponse(json.dumps(data), content_type='application/json', status=202)
 
-    return render(request, 'index.html', {'users': Users.objects.all()})
-
 
 @require_http_methods('GET')
 def users(request):
@@ -81,11 +82,12 @@ def users(request):
 @require_http_methods('GET')
 def user(request):
     username = request.GET.get("username")
-    user = []
+    u = {}
     if Users.objects.filter(username=username).exists():
-        user = Users.objects.filter(username=username)
+        user_object = Users.objects.filter(username=username)
+        u = json.loads(serializers.serialize("json", user_object))[0]
 
-    return HttpResponse(serializers.serialize("json", user), content_type="application/json")
+    return HttpResponse(json.dumps(u), content_type="application/json")
 
 
 @require_http_methods('GET')

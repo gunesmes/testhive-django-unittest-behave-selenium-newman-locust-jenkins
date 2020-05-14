@@ -7,6 +7,7 @@ class Users(models.Model):
     email = models.CharField(max_length=30, blank=False)
     address = models.CharField(max_length=60, blank=False)
     birthday = models.DateField()
+    premium = models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.username

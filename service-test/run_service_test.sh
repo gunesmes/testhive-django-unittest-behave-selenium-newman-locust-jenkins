@@ -22,4 +22,4 @@ docker pull gunesmes/newman-postman-html-report
 # docker run --network host -v $PWD:/newman gunesmes/newman-postman-html-report run blog-sample-service.postman_collection.json -e blog-local.postman_environment.json --reporters cli,html --reporter-html-template report-template.hbs
 
 ## xml result
-docker run --network host -v $PWD:/newman gunesmes/newman-postman-html-report run blog-sample-service.postman_collection.json -e blog-local.postman_environment.json --reporters junit --reporter-junit-export newman/service-test-report.xml
+docker run --platform linux/amd64 --network host -v $PWD:/newman gunesmes/newman-postman-html-report run blog-sample-service.postman_collection.json -e blog-local.postman_environment.json --reporters junit --reporter-junit-export newman/service-test-report.xml

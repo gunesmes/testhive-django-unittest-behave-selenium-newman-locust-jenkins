@@ -1,10 +1,14 @@
-version: '2'
+version: '3.9'
 
 services:
   db:
     container_name: testhive-postgres
     restart: always
     image: postgres:latest
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     volumes:
       - "database-app:/var/lib/postgresql/data"
     ports:
@@ -17,10 +21,12 @@ services:
       - .:/code
     ports:
       - 8001:8001
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     depends_on:
       - db
 
 volumes:
   database-app:
-
-

@@ -301,6 +301,11 @@
 							"key": "client",
 							"value": "app",
 							"type": "text"
+						},
+						{
+							"key": "premium",
+							"value": "false",
+							"type": "text"
 						}
 					]
 				},

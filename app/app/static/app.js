@@ -97,3 +97,7 @@ function getUser(username) {
         }
     });
 }
+
+function closeModal() {
+    $('#myModal').hide();
+}

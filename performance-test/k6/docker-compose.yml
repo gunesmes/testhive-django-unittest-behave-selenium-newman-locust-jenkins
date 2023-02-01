@@ -1,6 +1,11 @@
 version: '3'
 services:
   influxdb:
+    environment:
+      - INFLUXDB_DB=first
+      - INFLUXDB_ADMIN_USER=admin
+      - INFLUXDB_ADMIN_PASSWORD=admin
+      - INFLUXDB_HTTP_AUTH_ENABLED=false
     build:
       context: .
       dockerfile: Dockerfile.influxdb
@@ -19,7 +24,7 @@ services:
     ports:
       - "3000:3000"
   k6:
-    build: .
+    image: loadimpact/k6
     ports:
       - "6565:6565"
     environment:
